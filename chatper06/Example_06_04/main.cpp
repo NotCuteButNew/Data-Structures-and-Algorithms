@@ -42,9 +42,10 @@ int main(int argc, char **argv) {
 int find_root(int *U, int i) {
   if (i == U[i])
     return i;
-  else
+  else {
     U[i] = find_root(U, U[i]);
-  return find_root(U, U[i]);
+    return find_root(U, U[i]);
+  }
 }
 
 void merge(int *U, int i, int j) {
