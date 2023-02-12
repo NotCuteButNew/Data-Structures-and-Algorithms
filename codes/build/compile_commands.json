@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/codes/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/chainWithIterator.dir/includes_CXX.rsp -g -o CMakeFiles\\chainWithIterator.dir\\chainWithIterator.cpp.obj -c D:\\codes\\chainWithIterator.cpp",
+  "file": "D:/codes/chainWithIterator.cpp"
+}
+]
